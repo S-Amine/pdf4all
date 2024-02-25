@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-13 10:14:35.568326",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "doc_data_section",
+  "doc",
+  "column_break_ezhv",
+  "doc_id",
+  "emitor_data_section",
+  "emitor",
+  "column_break_qlmg",
+  "emitor_address",
+  "emitor_fields_section",
+  "emitor_fields",
+  "receiver_data_section",
+  "receiver",
+  "column_break_hfkj",
+  "receiver_address",
+  "receiver_fields_section",
+  "receiver_fields",
+  "items_section",
+  "items",
+  "pricing_data_section",
+  "total",
+  "pricing_fields_section",
+  "pricing_fields"
+ ],
+ "fields": [
+  {
+   "fieldname": "doc_data_section",
+   "fieldtype": "Section Break",
+   "label": "Doc Data"
+  },
+  {
+   "fieldname": "doc",
+   "fieldtype": "Data",
+   "label": "Doc"
+  },
+  {
+   "fieldname": "column_break_ezhv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "doc_id",
+   "fieldtype": "Data",
+   "label": "Doc ID"
+  },
+  {
+   "fieldname": "emitor_data_section",
+   "fieldtype": "Section Break",
+   "label": "Emitor Data"
+  },
+  {
+   "fieldname": "emitor",
+   "fieldtype": "Data",
+   "label": "Emitor"
+  },
+  {
+   "fieldname": "column_break_qlmg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "emitor_address",
+   "fieldtype": "Data",
+   "label": "Emitor Address"
+  },
+  {
+   "fieldname": "receiver_data_section",
+   "fieldtype": "Section Break",
+   "label": "Receiver Data"
+  },
+  {
+   "fieldname": "receiver",
+   "fieldtype": "Data",
+   "label": "Receiver"
+  },
+  {
+   "fieldname": "column_break_hfkj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "receiver_address",
+   "fieldtype": "Data",
+   "label": "Receiver Address"
+  },
+  {
+   "fieldname": "pricing_data_section",
+   "fieldtype": "Section Break",
+   "label": "Pricing Data"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total"
+  },
+  {
+   "fieldname": "emitor_fields_section",
+   "fieldtype": "Section Break",
+   "label": "Emitor Fields"
+  },
+  {
+   "fieldname": "emitor_fields",
+   "fieldtype": "Table",
+   "label": "Emitor Fields",
+   "options": "Emitor Field"
+  },
+  {
+   "fieldname": "receiver_fields_section",
+   "fieldtype": "Section Break",
+   "label": "Receiver Fields"
+  },
+  {
+   "fieldname": "receiver_fields",
+   "fieldtype": "Table",
+   "label": "Receiver Fields",
+   "options": "Receiver Field"
+  },
+  {
+   "fieldname": "items_section",
+   "fieldtype": "Section Break",
+   "label": "Items"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "PDF Item"
+  },
+  {
+   "fieldname": "pricing_fields_section",
+   "fieldtype": "Section Break",
+   "label": "Pricing Fields"
+  },
+  {
+   "fieldname": "pricing_fields",
+   "fieldtype": "Table",
+   "label": "Pricing Fields",
+   "options": "Pricing Field"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-13 10:42:45.449762",
+ "modified_by": "Administrator",
+ "module": "PDF For All",
+ "name": "Item PDF",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
